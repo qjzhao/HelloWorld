@@ -156,13 +156,13 @@ HCURSOR CHelloWordDlg::OnQueryDragIcon()
 
 void CHelloWordDlg::OnBnClickedButton1()
 {
-	// TODO: 在此添加控件通知处理程序代码
-	::MessageBox(m_hWnd, L"Hello World!", L"Hello World!", MB_OK);
+	// TODO: 鍦ㄦ娣诲姞鎺т欢閫氱煡澶勭悊绋嬪簭浠ｇ爜
+	::MessageBox(m_hWnd, L"Test conflict!", L"Test conflict!", MB_OK);
 }
 
 
 void CHelloWordDlg::OnBnClickedButton2()
 {
-	// TODO: 在此添加控件通知处理程序代码
+	// TODO: 鍦ㄦ娣诲姞鎺т欢閫氱煡澶勭悊绋嬪簭浠ｇ爜
 	::PostQuitMessage(0);
 }
