@@ -63,6 +63,7 @@ BEGIN_MESSAGE_MAP(CHelloWordDlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDC_BUTTON1, &CHelloWordDlg::OnBnClickedButton1)
+	ON_BN_CLICKED(IDC_BUTTON2, &CHelloWordDlg::OnBnClickedButton2)
 END_MESSAGE_MAP()
 
 
@@ -157,4 +158,11 @@ void CHelloWordDlg::OnBnClickedButton1()
 {
 	// TODO: 在此添加控件通知处理程序代码
 	::MessageBox(m_hWnd, L"Hello World!", L"Hello World!", MB_OK);
+}
+
+
+void CHelloWordDlg::OnBnClickedButton2()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	::PostQuitMessage(0);
 }
