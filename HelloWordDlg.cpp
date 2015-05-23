@@ -157,7 +157,7 @@ HCURSOR CHelloWordDlg::OnQueryDragIcon()
 void CHelloWordDlg::OnBnClickedButton1()
 {
 	// TODO: 在此添加控件通知处理程序代码
-	::MessageBox(m_hWnd, L"你好World!", L"你好World!", MB_OK);
+	::MessageBox(m_hWnd, _T("你好World!"), L"World!", MB_OK);
 }
 
 
