@@ -16,3 +16,4 @@ test tag ?
 test amend >> test amend
 
 branch 1
+branch 2
