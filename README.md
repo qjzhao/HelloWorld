@@ -20,3 +20,6 @@ branch 2
 
 develop branch 001
 develop branch 002
+
+develop [v2] branch 001
+develop [v2] branch 002
